@@ -1,0 +1,41 @@
+.is-block {
+  display: block !important;
+}
+
+.is-flex {
+  display: flex !important;
+}
+
+.is-inline {
+  display: inline !important;
+}
+
+.is-inline-block {
+  display: inline-block !important;
+}
+
+.is-inline-flex {
+  display: inline-flex !important;
+}
+
+/* Adds visibility hidden */
+.is-invisible {
+  visibility: hidden !important;
+}  
+
+/* Hides element */
+.is-hidden {
+  display: none !important;
+}
+
+/* Hide elements visually but keep the element available to be announced by a screen reader */
+.is-sr-only {
+  border: none !important;
+  clip: rect(0, 0, 0, 0) !important;
+  height: 0.01em !important;
+  overflow: hidden !important;
+  padding: 0 !important;
+  position: absolute !important;
+  white-space: nowrap !important;
+  width: 0.01em !important;
+}
