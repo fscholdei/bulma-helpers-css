@@ -1,0 +1,74 @@
+/* Transforms the first character of each word to uppercase */
+.is-capitalized {
+  text-transform: capitalize !important;
+}
+
+/* Transforms all characters to lowercase */
+.is-lowercase {
+  text-transform: lowercase !important;
+}
+
+/* Transforms all characters to uppercase */
+.is-uppercase {
+  text-transform: uppercase !important;
+}
+
+/* Transforms all characters to italic */
+.is-italic {
+  font-style: italic !important;
+}
+
+/* Underlines the text */
+.is-underlined {
+  text-decoration: underline !important;
+}
+
+/* Transforms text weight to light */
+.has-text-weight-light {
+  font-weight: 300 !important;
+}
+
+/* Transforms text weight to normal */
+.has-text-weight-normal {
+  font-weight: 400 !important;
+}
+
+/* Transforms text weight to medium */
+.has-text-weight-medium {
+  font-weight: 500 !important;
+}
+
+/* Transforms text weight to semi-bold */
+.has-text-weight-semibold {
+  font-weight: 600 !important;
+}
+
+/* Transforms text weight to bold */
+.has-text-weight-bold {
+  font-weight: 700 !important;
+}
+
+/* Sets font family to $family-sans-serif */
+.is-family-sans-serif {
+  font-family: $family-primary !important;
+}
+
+/* Sets font family to $family-monospace */
+.is-family-monospace	{
+  font-family: $family-secondary !important;
+}
+
+/* Sets font family to $family-primary */
+.is-family-primary {
+  font-family: $family-sans-serif !important;
+}
+
+/* Sets font family to $family-secondary */
+.is-family-secondary {
+  font-family: monospace !important;
+}
+
+/* Sets font family to $family-code */
+.is-family-code {
+  font-family: $family-code !important;
+}
