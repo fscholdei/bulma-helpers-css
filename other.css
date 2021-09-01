@@ -1,0 +1,62 @@
+/* Fixes an element's floating children */
+.is-clearfix {
+  &::after {
+    clear: both;
+    content: " ";
+    display: table;
+  }
+}
+
+/* Moves an element to the left */
+.is-pulled-left {
+  float: left !important;
+}
+
+/* Moves an element to the right */
+.is-pulled-right {
+  float: right !important;
+}
+
+/* Completely covers the first positioned parent */
+.is-overlay {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* Adds overflow hidden */
+.is-clipped {
+  overflow: hidden !important;
+}
+
+/* Removes any radius */
+.is-radiusless {
+  border-radius: 0 !important;
+}
+
+/* Removes any shadow */
+.is-shadowless {
+  box-shadow: none !important;
+}
+
+/* Prevents the text from being selectable */
+.is-unselectable {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Applies cursor: pointer !important to the element. */
+.is-clickable {
+  cursor: pointer !important;
+  pointer-events: all !important;
+}
+
+/* Applies position: relative to the element. */
+.is-relative {
+  position: relative !important;
+}
